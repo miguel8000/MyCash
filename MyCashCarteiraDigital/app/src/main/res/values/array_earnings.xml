@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="earning_category">
+        <item>@string/salary</item>
+        <item>@string/extra</item>
+        <item>@string/others</item>
+    </string-array>
+
+</resources>

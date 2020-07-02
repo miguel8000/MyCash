@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="expenses_category">
+        <item>@string/food</item>
+        <item>@string/rent</item>
+        <item>@string/water</item>
+        <item>@string/electricity</item>
+        <item>@string/credit_card</item>
+        <item>@string/fuel</item>
+        <item>@string/recreation</item>
+        <item>@string/others2</item>
+    </string-array>
+
+</resources>
