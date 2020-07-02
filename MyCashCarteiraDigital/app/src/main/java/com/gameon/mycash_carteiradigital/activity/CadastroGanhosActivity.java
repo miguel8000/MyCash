@@ -2,12 +2,15 @@ package com.gameon.mycash_carteiradigital.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 
 import com.gameon.mycash_carteiradigital.R;
+import com.gameon.mycash_carteiradigital.helper.DbHelper;
 
 public class CadastroGanhosActivity extends AppCompatActivity {
 

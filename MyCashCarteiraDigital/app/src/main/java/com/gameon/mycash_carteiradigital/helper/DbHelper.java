@@ -49,9 +49,10 @@ public class DbHelper extends SQLiteOpenHelper {
             db.execSQL(tableCategorySQL);
             db.execSQL(tableInputSQL);
             db.execSQL(tableOutputSQL);
-            Log.i("infotables", "Sucesso ao criar tabelas!");
+
+            Log.i("infotables", "onCreate: Sucesso ao criar tabelas!");
         }catch (Exception e){
-            Log.i("infotables", "Erro ao criar tabelas! " + e.getMessage());
+            Log.i("infotables", "onCreate: Erro ao criar tabelas! " + e.getMessage());
         }
     }
 

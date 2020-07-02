@@ -1,7 +1,5 @@
 package com.gameon.mycash_carteiradigital.model;
 
-import com.gameon.mycash_carteiradigital.activity.LoginActivity;
-
 import java.io.Serializable;
 
 public class Category implements Serializable {
