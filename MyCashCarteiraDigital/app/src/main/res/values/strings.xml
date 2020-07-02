@@ -4,7 +4,7 @@
     <string name="login">Login</string>
     <string name="senha">Senha</string>
     <string name="entrar">Entrar</string>
-
+    <string name="saldo">Saldo:</string>
     <string name="valor_es">Valor de Entrada ou Saída:</string>
     <string name="descricao">Descrição:</string>
     <string name="ganhos">Ganhos:</string>
@@ -16,7 +16,7 @@
     <string name="aluguel">Aluguel</string>
     <string name="agua">Água</string>
     <string name="energia">Energia</string>
-    <string name="cartao">Cartão de Credito</string>
+    <string name="cartao">Cartão de Crédito</string>
     <string name="combustivel">Combustivel</string>
     <string name="lazer">Lazer</string>
     <string name="outras_d">Outras Dispesas</string>
@@ -24,7 +24,6 @@
 
 <!-- Array do spinner container na tela de cadastro de ganhos -->
     <string name="salary">Salário</string>
-    <string name="extra">Extra</string>
     <string name="others">Outros</string>
 
 <!-- Array do spinner container na tela de cadastro de ganhos -->
