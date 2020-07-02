@@ -3,50 +3,34 @@ package com.gameon.mycash_carteiradigital.activity;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.Spinner;
 
 import com.gameon.mycash_carteiradigital.R;
 
-public class CadastroGanhosActivity extends AppCompatActivity {
+public class CadastroDespesasActivity extends AppCompatActivity {
 
-    private Spinner spinnerCategory;
-    private Button buttonText;
+    private Spinner getSpinnerCategory;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cadastro_ganhos);
+        setContentView(R.layout.layout_cadastro_despesas);
 
         //Configurar título da toobar
-        getSupportActionBar().setTitle("Entrada dos ganhos");
+        getSupportActionBar().setTitle("Entrada das despesas");
 
-        //Configurando DropDown das categorias de ganhos
-        spinnerCategory = findViewById(R.id.spinnerCategoryInput);
+        //Configurando DropDown das categorias de despesas
+        getSpinnerCategory = findViewById(R.id.spinnerCategoryOutput);
 
-        String[] categorys = getResources().getStringArray(R.array.earning_category);
+        String[] category = getResources().getStringArray(R.array.expenses_category);
         ArrayAdapter arrayAdapter = new ArrayAdapter(
-                this, android.R.layout.simple_spinner_item, categorys);
+                this, android.R.layout.simple_spinner_item, category);
         arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinnerCategory.setAdapter(arrayAdapter);
-
-
-        //botão para fins de teste
-        buttonText = findViewById(R.id.button);
-        buttonText.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(CadastroGanhosActivity.this, CadastroDespesasActivity.class);
-                startActivity(intent);
-            }
-        });
-
+        getSpinnerCategory.setAdapter(arrayAdapter);
     }
 
     //Botão para salvar, na toobar

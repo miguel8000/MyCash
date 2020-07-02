@@ -22,11 +22,11 @@
     <string name="outras_d">Outras Dispesas</string>
     <string name="graf">Gráfico:</string>
 
-<!-- Array do spinner container na tela de cadastro de ganhos -->
+    <!-- Array do spinner container na tela de cadastro de ganhos -->
     <string name="salary">Salário</string>
     <string name="others">Outros</string>
 
-<!-- Array do spinner container na tela de cadastro de ganhos -->
+    <!-- Array do spinner container na tela de cadastro de ganhos -->
     <string name="food">Alimentação</string>
     <string name="rent">Aluguel</string>
     <string name="water">Conta de água</string>
