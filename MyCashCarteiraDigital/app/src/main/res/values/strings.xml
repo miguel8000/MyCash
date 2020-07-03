@@ -6,7 +6,7 @@
     <string name="entrar">Entrar</string>
     <string name="saldo">Saldo:</string>
     <string name="valor_es">Valor de Entrada ou Saída:</string>
-    <string name="descricao">Descrição:</string>
+    <string name="descricao">Descrição</string>
     <string name="ganhos">Ganhos:</string>
     <string name="salario">Salário</string>
     <string name="extra">Extra</string>
@@ -21,10 +21,15 @@
     <string name="lazer">Lazer</string>
     <string name="outras_d">Outras Dispesas</string>
     <string name="graf">Gráfico:</string>
+    <string name="tipo_g">Tipo de ganho</string>
+    <string name="valor_ent">Valor de  entrada</string>
+    <string name="add_g">Adicionar ganhos</string>
+    <string name="ok">Confirmar</string>
 
     <!-- Array do spinner container na tela de cadastro de ganhos -->
     <string name="salary">Salário</string>
     <string name="others">Outros</string>
+
 
     <!-- Array do spinner container na tela de cadastro de ganhos -->
     <string name="food">Alimentação</string>
