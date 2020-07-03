@@ -10,22 +10,27 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
 import com.gameon.mycash_carteiradigital.R;
+import com.google.android.material.textfield.TextInputEditText;
 
 public class CadastroDespesasActivity extends AppCompatActivity {
 
     private Spinner getSpinnerCategory;
+    private TextInputEditText inputValue;
+    private TextInputEditText inputDescription;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_cadastro_despesas);
 
+        inputValue = findViewById(R.id.inputValueInput);
+        inputDescription = findViewById(R.id.inputDescriptionInput);
+        getSpinnerCategory = findViewById(R.id.spinnerCategoryOutput);
+
         //Configurar título da toobar
         getSupportActionBar().setTitle("Entrada das despesas");
 
         //Configurando DropDown das categorias de despesas
-        getSpinnerCategory = findViewById(R.id.spinnerCategoryOutput);
-
         String[] category = getResources().getStringArray(R.array.expenses_category);
         ArrayAdapter arrayAdapter = new ArrayAdapter(
                 this, android.R.layout.simple_spinner_item, category);

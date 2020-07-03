@@ -22,7 +22,7 @@ public class CadastroGanhosActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cadastro_ganhos);
+        setContentView(R.layout.layout_cadastro_ganhos);
 
         //Configurar título da toobar
         getSupportActionBar().setTitle("Entrada dos ganhos");
